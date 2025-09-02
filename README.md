@@ -18,8 +18,9 @@ A simple SSH honeypot that emulates a shell environment and logs attacker activi
 
 2. Install Dependencies
 
-   
-    pip install logging paramiko socket threading path
+
+    pip install paramiko  # all  the remainig modules are built-n
+
 
 
 **USAGE**
@@ -33,4 +34,4 @@ By default, it listens on port 2222.
 You can connect to it via:
 
 
-      ssh -p 2222 username@127.0.0.1
+      ssh -p <port number> <username>@<local ip adress>  
