@@ -2,6 +2,13 @@
 
 A simple SSH honeypot that emulates a shell environment and logs attacker activity.  
 
+
+**Development environtment:**
+
+    • Python3.11+
+    
+    • Virtual studios 
+    
  __INSTALLATION__
  
 
@@ -10,6 +17,7 @@ A simple SSH honeypot that emulates a shell environment and logs attacker activi
    git clone https://github.com/murariguna/honeypot.git
 
 2. Install Dependencies
+
    
     pip install logging paramiko socket threading path
 
